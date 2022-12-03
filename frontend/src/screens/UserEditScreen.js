@@ -224,7 +224,7 @@ const UserEditScreen = () => {
                             displayType={'text'}
                             thousandSeparator={true}
                           />{' '}
-                          ש"ח
+                          $
                         </Link>
                       </td>
                       <td className='sm=hide'>

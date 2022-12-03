@@ -21,6 +21,7 @@ const AddToCartBtn = ({ disabled, id, qty }) => {
       type='button'
       disabled={disabled}
       onClick={addToCartHandler}
+      style={{ color: '#7CB342' }}
     >
       Add To Cart{' '}
     </Button>

@@ -21,7 +21,7 @@ const Header = () => {
   }
 
   return (
-    <header>
+    <header style={{ fontFamily: 'indie flower' }}>
       <Navbar bg='primary' className='navbar-dark' expand='lg' collapseOnSelect>
         <Container>
           <LinkContainer to='/'>
@@ -40,7 +40,7 @@ const Header = () => {
               <h4 style={{ fontSize: '50%' }}>About Us</h4>
             </Navbar.Brand>
           </LinkContainer>
-          <Navbar.Toggle aria-controls='basic-navbar-nav' />
+          {/* <Navbar.Toggle aria-controls='basic-navbar-nav' /> */}
           <SearchBox />
           <Nav className='ml-auto'>
             {userInfo && userInfo.isAdmin && (

@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 const Footer = () => {
   return (
-    <footer>
+    <footer style={{ fontFamily: 'Indie Flower' }}>
       <div style={{ textAlign: 'center' }}>
         <a
           href='http://www.facebook.com'
